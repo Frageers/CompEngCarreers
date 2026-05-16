@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Computer Engineering in Science and Construction</title>
+
+        <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#eef3f7;
+            margin:0;
+        }
+
+        header{
+            background:#1f3c5a;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+
+        nav{
+            background:#2f5f8f;
+            text-align:center;
+            padding:12px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:15px;
+            font-weight:bold;
+        }
+
+        nav a:hover{
+            text-decoration:underline;
+        }
+
+        .container{
+            max-width:1000px;
+            margin:auto;
+            padding:40px;
+        }
+
+        .section{
+            margin-bottom:50px;
+        }
+
+        h2{
+            color:#1f3c5a;
+        }
+
+        img{
+            width:450px;
+            margin-top:15px;
+        }
+
+        .highlight{
+            background:#d9e7f3;
+            padding:20px;
+            margin-top:20px;
+            border-left:5px solid #1f3c5a;
+        }
+
+        footer{
+            background:#1f3c5a;
+            color:white;
+            text-align:center;
+            padding:15px;
+        }
+
+        /* --- Updated Nav Styles --- */
+
+        /* --- Navigation Bar Container --- */
+        nav {
+            background-color: #2f5f8f; 
+            display: flex;             /* Use Flexbox for layout */
+            justify-content: center;   /* Horizontal centering */
+            align-items: center;       /* Vertical centering */
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        /* --- Links and Dropdown Wrapper --- */
+        nav a, .dropdown {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        /* Hover effect for all main nav items */
+        nav a:hover, .dropdown:hover > .dropbtn {
+            background-color: #1f3c5a;
+        }
+
+        /* --- Dropdown Specifics --- */
+        .dropdown {
+            position: relative;
+            padding: 0; /* Let the internal link handle the padding */
+        }
+
+        .dropbtn {
+            display: block;
+            padding: 14px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #2f5f8f;
+            min-width: 240px;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.3);
+            z-index: 100;
+            text-align: left; /* Keep text inside dropdown left-aligned */
+            top: 100%;        /* Ensures it starts right below the nav bar */
+            left: 0;
+        }
+
+        .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            font-weight: normal;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #1f3c5a;
+        }
+
+        /* Show the menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        </style>
+
+    </head>
+
+    <body>
+
+        <header>
+            <h1>Computer Engineering in Science, Engineering, and Construction</h1>
+            <p><i>How computer technology powers modern engineering and infrastructure</i></p>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+
+            <div class="dropdown">
+                <a href="#" class="dropbtn">Careers</a>
+                <div class="dropdown-content">
+                <a href="computerSystemEngineer.html">Computer Systems Engineer</a>
+                <a href="asic.html">ASIC Design / Verification engineer</a>
+                <a href="embedded.html">Embedded Systems Engineer</a>
+                <a href="roboticsEngineer.html">Robotics Technician</a>
+                </div>
+            </div>
+
+            <a href="education.html">Education</a>
+            <a href="resources.html">Resources</a>
+        </nav>
+
+        <div class="container">
+
+            <div class="section">
+
+                <h2>What is Computer Engineering and other key terms</h2>
+
+                <p>
+                    <b>Computer engineering</b> is a field that combines <i>computer science</i> and <i>electrical engineering</i> to develop, design, and test computer hardware, and software.
+                </p>
+
+                <p>
+                    <b>Computer science</b> is the study of <i>computers</i> and <i>algorithmic processes</i> focusing on how they operate and they're application to solve complex real world problems.
+                </p>
+
+                <p>
+                    <b>Electrical engineering</b> is the branch of engineering that applies the math of electricity, and circiuits to design, develop, and test electrical systems and components
+                </p>
+
+
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsdk1u3m_n-JCOK9PfM7a91QBTsGi-GMUXYw&s">
+
+            </div>
+
+            <div class="section">
+
+                <h2>Why Computer Engineering is Important</h2>
+
+                <p>
+                    Computer engineering is the bridge between hardware and software. By combining computer science with electrical engineering, the development of everything from processors for smartphones to fully autonomous vehicles is enabled 
+                </p>
+
+                <p>
+                    Computer Science gives us the algorithm behind the AI, what lets it think<br><br>
+                    Electrical engineering gives us a way to power the circuit, a working circuit board, and a way to make sure the circuit doesn't overheat or explode<br><br>
+                    Computer engineering combines the 2, designing the working circuit in a way to allow for the input of information to the algorithm and to output the processed information from the algorithm
+                </p>
+
+                <img src="https://www.mtu.edu/ece/undergraduate/computer/what-is/images/computer-banner450.jpg">
+
+            </div>
+
+            <div class="section">
+
+                <h2>Technologies Used</h2>
+
+                <ul>
+                    <li><b>Embedded systems</b> used in robotics and construction machinery</li>
+                    <li><b>Sensors and microcontrollers</b> used in smart infrastructure</li>
+                    <li><b>Computer-Aided Design (CAD)</b> used to create digital building models</li>
+                    <li><b>Simulation software</b> used to test structures before construction</li>
+                </ul>
+
+            </div>
+
+            <div class="section">
+
+                <h2>Careers Enabled by These Technologies</h2>
+
+                <p>
+                    Computer engineering supports many careers in science and construction fields. 
+                    Some of the careers explored on this website include:
+                </p>
+
+                <ul>
+                    <li>CAD Technician</li>
+                    <li>Robotics Technician</li>
+                    <li>GIS Analyst</li>
+                    <li>Construction Technology Specialist</li>
+                </ul>
+
+                <div class="highlight">
+                    <b>Key Idea:</b> Computer engineering connects hardware, software, and 
+                    electronics to create the tools that allow scientists and engineers to 
+                    design, test, and build modern infrastructure.
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Computer Technology Research Assignment</p>
+        </footer>
+
+    </body>
+</html>
